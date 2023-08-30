@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModel="clr-namespace:XamarinCrud.ViewModels"
+             x:Class="XamarinCrud.ViewPageInsertar">
+    <ContentPage.BindingContext>
+        <viewModel:ViewModelInsertar>
+        </viewModel:ViewModelInsertar>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Padding="15">
+
+            <Label Text="Nombre"></Label>
+            <Entry Keyboard="Text" Text="{Binding nombre}" x:Name="NombreEntry"></Entry>
+            <Label Text="Edad"></Label>
+            <Entry Keyboard="Numeric" Text="{Binding edad}" x:Name="EdadEntry"></Entry>
+            <Label Text="Activo"></Label>
+            <Entry Keyboard="Numeric" Text="{Binding activo}" x:Name="ActivoEntry"></Entry>
+            <Label Text="Fecha"></Label>
+            <DatePicker Date="{Binding fecha}" MaximumDate="2040-01-12" MinimumDate="1990-01-01" x:Name="FechaPicker"></DatePicker>
+            <Label Text="Correo"></Label>
+            <Entry Keyboard="Text" Text="{Binding correo}" x:Name="CorreoEntry"></Entry>
+
+            <Button Text="Guardar" Clicked="MostrarMensajeInsertar" Command="{Binding InsertarUsuarioCommand}" 
+                BackgroundColor="DarkGreen" TextColor="White" FontAttributes="Bold">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

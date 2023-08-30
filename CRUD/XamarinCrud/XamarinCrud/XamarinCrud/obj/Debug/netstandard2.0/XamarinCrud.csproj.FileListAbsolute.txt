@@ -1,0 +1,32 @@
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.csproj.AssemblyReference.cache
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\ViewPageInsertar.xaml.g.cs
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.AssemblyInfoInputs.cache
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.AssemblyInfo.cs
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.csproj.CoreCompileInputs.cache
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.deps.json
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.dll
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\ref\XamarinCrud.dll
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.pdb
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.dll
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\refint\XamarinCrud.dll
+C:\Users\Inspiron 15-5577\Desktop\EXAMEN MOVILES\xamari\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.pdb
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.deps.json
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.dll
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\ref\XamarinCrud.dll
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\bin\Debug\netstandard2.0\XamarinCrud.pdb
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.csproj.AssemblyReference.cache
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\ViewPageInsertar.xaml.g.cs
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.AssemblyInfoInputs.cache
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.AssemblyInfo.cs
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.dll
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\refint\XamarinCrud.dll
+C:\xampp\htdocs\EXAMENMOVILES\XamarinCrud\XamarinCrud\XamarinCrud\obj\Debug\netstandard2.0\XamarinCrud.pdb

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewModel="clr-namespace:XamarinCrud.ViewModels"
+             x:Class="XamarinCrud.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewModel:ViewModelMostrar>
+        </viewModel:ViewModelMostrar>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Button x:Name="btnRegistrar" Clicked="irRegistrar" Text="Registrar" BackgroundColor="DarkBlue" TextColor="White" FontAttributes="Bold" ></Button>
+        <Button x:Name="btnConsulUsuario" Clicked="consultar" Text="Ver usuarios" Command="{Binding ConsultaListaUsuariosCommand}" BackgroundColor="DarkBlue" TextColor="White" FontAttributes="Bold"></Button>
+
+        <StackLayout x:Name="ListUsuarios" IsVisible="false">
+            <ListView  ItemsSource="{Binding ListaUsuarios}" SelectedItem="{Binding UsuarioSeleccionado}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" RowHeight="290">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="{Binding id}" IsVisible="false"></Label>
+                                <Label Text="Nombre: "></Label>
+                                <Label Text="{Binding nombre}" ></Label>
+                                <Label Text="Edad:"></Label>
+                                <Label Text="{Binding edad}"></Label>
+                                <Label Text="Activo: "></Label>
+                                <Label Text="{Binding activo}"></Label>
+                                <Label Text="Fecha: "></Label>
+                                <Label Text="{Binding fecha}"></Label>
+                                <Label Text="Correo: "></Label>
+                                <Label Text="{Binding correo}"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="btnEliminar" Text="Eliminar" Command="{Binding EliminarUsuarioGetCommand}" BackgroundColor="DarkRed" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" WidthRequest="80"/>
+            <Button x:Name="btnEditar" Text="Editar" Command="{Binding EditarUsuarioGetCommand}" Clicked="Editar" BackgroundColor="DarkBlue" TextColor="White" FontAttributes="Bold" VerticalOptions="Center" WidthRequest="80"/>
+        </StackLayout>
+
+        <StackLayout IsVisible="false" x:Name="MiStackLayout" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Padding="15">
+            <Label Text="{Binding id}" IsVisible="false"></Label>
+            <Label Text="Nombre"></Label>
+            <Entry Keyboard="Text" Text="{Binding nombre}"></Entry>
+            <Label Text="Edad"></Label>
+            <Entry Keyboard="Numeric" Text="{Binding edad}"></Entry>
+            <Label Text="Activo"></Label>
+            <Entry Keyboard="Numeric" Text="{Binding activo}"></Entry>
+            <Label Text="Fecha"></Label>
+            <DatePicker Date="{Binding fecha}" MaximumDate="2040-01-12" MinimumDate="1990-01-01"></DatePicker>
+            <Label Text="Correo"></Label>
+            <Entry Keyboard="Text" Text="{Binding correo}"></Entry>
+
+            <Button x:Name="btnActualizar" Clicked="MostrarMensajeEditar" Text="Actualizar" Command="{Binding EditarUsuarioCommand}" 
+            BackgroundColor="DarkGreen" TextColor="White" FontAttributes="Bold">
+            </Button>
+            <Button x:Name="btnAtrasEditar" Clicked="AtrasEditar" Text="Atras" 
+            BackgroundColor="DarkBlue" TextColor="White" FontAttributes="Bold">
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
